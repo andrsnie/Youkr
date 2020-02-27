@@ -1,0 +1,31 @@
+<!--
+  ~ Created by andrSnie on 12.12.19 2:55
+  ~ Copyright (c) 2019. All rights reserved.
+  -->
+
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+    </style>
+
+    <!-- Style for a name of a category of vocabulary words -->
+    <style name="CategoryStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">@integer/category_weight</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+		<item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+    </style>
+
+    <!-- Style for a frame of a category of vocabulary words -->
+    <style name="CategoryFrame">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/category_height</item>
+        <item name="android:layout_weight">@integer/category_weight</item>
+    </style>
+</resources>

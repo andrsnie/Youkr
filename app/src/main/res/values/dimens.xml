@@ -1,0 +1,13 @@
+<!--
+  ~ Created by andrSnie on 12.12.19 2:55
+  ~ Copyright (c) 2019. All rights reserved.
+  -->
+
+<resources>
+	<!-- Height of each category -->
+    <dimen name="category_height">0dp</dimen>
+    <integer name="category_weight">1</integer>
+
+    <!-- Height of each list item -->
+    <dimen name="list_item_height">88dp</dimen>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Created by andrSnie on 12.12.19 2:55
+  ~ Copyright (c) 2019. All rights reserved.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="angel.andrsnie.youkr.MainActivity">
+
+     <!-- Numbers category -->
+    <FrameLayout
+        style="@style/CategoryFrame"
+        android:background="@color/category_numbers">
+		<TextView
+			android:id="@+id/numbers"
+			style="@style/CategoryStyle"
+			android:text="@string/category_numbers"
+			android:textColor = "@android:color/white"/>
+	</FrameLayout>
+
+	<!-- Family category -->
+    <FrameLayout
+		style="@style/CategoryFrame"
+        android:background="@color/category_family">
+		<TextView
+			android:id="@+id/family"
+			style="@style/CategoryStyle"
+			android:text="@string/category_family"
+			android:textColor="@color/primary_dark_color"/>
+	</FrameLayout>
+
+    <!-- Colors category -->
+    <FrameLayout
+		style="@style/CategoryFrame"
+        android:background="@color/category_colors">
+		<TextView
+			android:id="@+id/colors"
+			style="@style/CategoryStyle"
+			android:text="@string/category_colors"
+			android:textColor = "@android:color/white"/>
+	</FrameLayout>
+
+    <!-- Phrases category -->
+    <FrameLayout
+		style="@style/CategoryFrame"
+        android:background="@color/category_phrases">
+		<TextView
+			android:id="@+id/phrases"
+			style="@style/CategoryStyle"
+			android:text="@string/category_phrases"
+			android:textColor="@color/primary_dark_color"/>
+	</FrameLayout>
+</LinearLayout>
